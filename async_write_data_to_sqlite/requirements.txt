@@ -1,0 +1,2 @@
+aiocsv==1.2.5
+aiofiles==23.2.1

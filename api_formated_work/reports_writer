@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+
+from api_interface import create_users_list
+from message_creator import  create_user_report_message
+from files_service import write_user_report, ensure_tasks_dir_existance, rename_old_file
+
+
+def main():
+    users = create_users_list()
+    ensure_tasks_dir_existance()
+    
+    for user in users:
+        message = create_user_report_message(user)
+        rename_old_file(user.username)
+        write_user_report(user, message)
+
+
+if __name__ == "__main__":
+    main()
