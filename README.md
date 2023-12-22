@@ -1,1 +1,1 @@
-# Here you can find problems of any type that caught my attention
+# Here you can find solutions to any type of problem that caught my attention
