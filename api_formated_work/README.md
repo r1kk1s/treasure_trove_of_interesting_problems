@@ -3,11 +3,6 @@
 The purpose of this mini application is to fetch data from API about users and their todos and write this information in the desired format in txt files
 
 
-Install this project
-
-`git clone https://github.com/r1kk1s/users_todo_api_work.git`
-
-
 Create virtual environment (venv)
 
 `python3 -m venv .venv`
