@@ -1,4 +1,4 @@
-# async write data to sqlite
+# async write data to databases
 
 ## The purpose of this mini application is to create some amount of CSV files of 10_000 rows each with data in any format and then write all data to db concurrently and measure the result.
 
