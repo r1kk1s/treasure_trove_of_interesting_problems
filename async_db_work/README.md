@@ -14,6 +14,10 @@
 
 `pip install -r requirements.txt`
 
+### Run postgresql
+
+`docker-compose up -d`
+
 ### Run this application
 
 `python main.py`
