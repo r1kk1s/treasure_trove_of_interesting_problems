@@ -1,0 +1,6 @@
+aiocsv==1.2.5
+aiofiles==23.2.1
+aiosqlite==0.19.0
+asyncpg==0.29.0
+psycopg2==2.9.9
+uvloop==0.19.0
